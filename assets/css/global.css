@@ -25,7 +25,7 @@ input, button, textarea, select { font: inherit }
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color:lightgreen; 
+    background-color: darkgray; 
 }
 
 h1 {
@@ -62,9 +62,9 @@ img {
     margin-top: 42px;
     margin-bottom: 42px;
     
-    box-shadow: 8px 10px 8px white;
+    box-shadow: 8px 10px 8px crimson;
     border-radius: 15px;
 }
 
-a { color: darkgreen; }
+a { color: darkred; }
 
