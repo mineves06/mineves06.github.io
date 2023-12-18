@@ -1,0 +1,119 @@
+
+.theme-light.section-selector-1 #btn-submit { color: var(--white-000) }
+.theme-light.section-selector-1 #btn-submit { background-color: var(--teal-900) }
+.theme-light.section-selector-1 #btn-submit { border-color: var(--black-000) }
+
+
+
+nav.theme-light ul.links-wrapper li a:link,
+nav.theme-light ul.links-wrapper li a:visited { color: var(--gray-050) }
+nav.theme-light ul.links-wrapper li a:focus,
+nav.theme-light ul.links-wrapper li a:hover,
+nav.theme-light ul.links-wrapper li a:active { color: var(--teal-200) }
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { border-color: var(--white-000) }
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { color: var(--white-000) }
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper.active li a:link,
+nav.theme-light ul.links-wrapper.active li a:visited { color: var(--teal-900) } }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { background-color: var(--cyan-900) }
+header.theme-light .badge { background-color: var(--teal-900) }
+header.theme-light .badge { color: var(--white-000) }
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { border-color: var(--green-400) }
+
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { color: var(--blue-400) }
+
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
+
+header.theme-light .container-btn a.btn:nth-child(2):focus,
+header.theme-light .container-btn a.btn:nth-child(2):hover,
+header.theme-light .container-btn a.btn:nth-child(2):active { background-color: var(--green-900) }
+
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { background-color: var(--cyan-900) }
+
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { background-color: var(--trend-900) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--teal-700) }
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { background-color: var(--teal-900) }
+
+header.theme-light { background-color: var(--gray-200) }
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+header.theme-light h1 { color: var(--trend-900) }
+header.theme-light h2 { color: var(--green-900) }
+
+footer.theme-dark { background-color: var(--teal-900) }
+footer.theme-dark > h2 { color: var(--cyan-050) }
+footer.theme-dark > h3 { color: var(--cyan-050) }
+footer.theme-dark > ul.footer-icons li a:link i,
+footer.theme-dark > ul.footer-icons li a:visited i { color: var(--white-000) }
+
+footer.theme-dark > ul.footer-icons li a:focus i,
+footer.theme-dark > ul.footer-icons li a:hover i,
+footer.theme-dark > ul.footer-icons li a:active i { color: var(--sky-300) }
+
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { color: var(--white-000) }
+
+footer.theme-dark > ul.footer-links li a:focus,
+footer.theme-dark > ul.footer-links li a:hover,
+footer.theme-dark > ul.footer-links li a:active { color: var(--sky-400) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--green-050) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--teal-900) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--white-000) }
+
+.section-selector-1.theme-light { background-color: var(--green-300) }
+.section-selector-1 .col-3 h3 { color: var(--trend-900) }
+.section-selector-1 .col-3 p { color: var(--trend-900) }
+.section-selector-1 .col-3 li { color: var(--trend-900) }
+
+
+.section-selector-1 .col-3 h3 { color: var(--trend-900) }
+.section-selector-1 .col-3 p { color: var(--trend-900) }
+.section-selector-1 .col-3 li { color: var(--trend-900) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--teal-900) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--cyan-900) }
+
+.section-selector-1 .col-3 p { color: var(--trend-900) }
+.section-selector-1 .col-3 li { color: var(--trend-900) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--teal-900) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--cyan-900) }
+
+.section-selector-1 .col-3 h3 { color: var(--trend-900) }
+.section-selector-1 .col-3 .badge { color: var(--trend-900) }
+.section-selector-1 .col-1 h2 { color: var(--trend-900) }
+
+
+
+
+
+.theme-light.section-selector-1 #btn-submit { color: var(--white-000) }
+.theme-light.section-selector-1 #btn-submit { background-color: var(--teal-900) }
+.theme-light.section-selector-1 #btn-submit { border-color: var(--black-000) }

@@ -7,16 +7,38 @@
     <title>Sample Web Page Title</title>
     <meta name="description" content="Sample web page description goes here.">
 
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/site.webmanifest">
+
 	<!-- Preload large image -->
 
+	
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
+	
     <link rel="stylesheet" href="assets/css/custom.css" />
 
 	<!-- Google Fonts -->
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HWF9C58743"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'G-HWF9C58743');
+	</script>
+	
+    <!-- Styles for Cookie Consent Popup Message  -->
+    <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
 
 </head>
 
@@ -26,7 +48,7 @@
     <!-- menu and 'hero block' header -->
     <nav class="theme-light"><div class="container-menu">
         <a href="#" class="brand">
-            <img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
+            <img src="assets/img/logo.jpg" alt="Website logo">
         </a>
     
         <div class="container-menu-links">
@@ -38,7 +60,7 @@
             </div>
     
             <ul class="links-wrapper">
-                <li><a href='/ibat/projects-ui/project-home-checklist/resources/w-light-home/'>Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="portfolio/index.html">Portfolio</a></li>
                 <li><a href="store/index.html">Store</a></li>
                 <li><a class="btn btn-solid btn-soft" id="btn-cta" href="contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
@@ -51,7 +73,8 @@
     
             <div class="col-2 col-text">
                 <div class="badge">WELCOME</div>
-                <h1>Mary Smith</h1>
+                <h1>Miriã Neves
+				</h1>
                 <h2>I am an innovative front-end developer who loves to build human-friendly interfaces.</h2>
     
                 <div class="container-btn">
@@ -61,10 +84,13 @@
             </div>
     
             <div class="col-2 col-visual">
-                <figure>
+                <!--figure>
                     <img src="https://lunevedy.com/ui/assets/img/1024x618-shopping-bag.jpg" alt="Placeholder image">
-                </figure>
-            </div>
+                </figure>-->
+				<video loop="" playsinline="" muted="" autoplay="" poster="/assets/video/hero-still.jpg" class="background-video" disablepictureinpicture="" preload="auto"><source src="assets/videos/business_ladies (1080p).mp4" type="video/mp4"></video>
+			
+			</div>
+            
     
         </header>
     
@@ -92,7 +118,7 @@
 				</figure>
 				<h3>Hero Block Gallery</h3>
 				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
-				<a href="portfolio/project-hero/index.html" class="btn btn-solid"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/project-hero/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
             
@@ -102,7 +128,7 @@
 				</figure>
 				<h3>Snazzy Fashion</h3>
 				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
-				<a href="portfolio/fashion/index.html" class="btn btn-solid"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/fashion/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 			<div class="col-3">
@@ -127,20 +153,20 @@
  
 	<footer class="theme-dark text-center-desktop text-center-mobile">
 
-		<h2>Mary Smith</h2>
+		<h2>Miriã Neves</h2>
 
 		<h3>Front-end designer and developer</h3>
 
 		<ul class="footer-links">
-			<li><a href='/ibat/projects-ui/project-home-checklist/resources/w-light-home/'>Home</a></li>
+			<li><a href="#">Home</a></li>
 			<li><a href="portfolio/index.html">Portfolio</a></li>
 			<li><a href="store/index.html">Store</a></li>
             <li><a href="contact/index.html">Contact</a></li>
 		</ul>
 
 		<ul class="footer-icons">
-			<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-			<li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/miri%C3%A3-neves-bb239a236/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="https://github.com/mineves06" target="_blank"><i class="fab fa-github-square"></i></a></li>
 		</ul>
 
 		<p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
@@ -148,6 +174,25 @@
 	</footer>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
+	
+    <!-- JavaScript for Cookie Consent Popup Message -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#000"
+            },
+            "button": {
+                "background": "#f1d600"
+            }
+        },
+        "content": {
+            "href": "mineves06.github.io/privacy.html"
+        }
+    });
+    </script>
 
 </body>
 </html>
